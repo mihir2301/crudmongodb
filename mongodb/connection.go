@@ -12,8 +12,8 @@ var Collect *mongo.Collection
 
 func init() {
 	const Url = "mongodb://localhost:27017"
-	const dbname = "Netflix&Chill"
-	const colname = "movies"
+	const dbname = "Netflix"
+	const colname = "Watchlist"
 
 	clientoption := options.Client().ApplyURI(Url)
 
